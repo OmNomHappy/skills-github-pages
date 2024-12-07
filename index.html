@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoPirate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>VideoPirate</h1>
+        <h2>Смотрите видео</h2>
+    </header>
+
+    <main>
+        <!-- Вставка видео -->
+        <video width="640" height="360" controls>
+            <source src="video/sample.mp4" type="video/mp4">
+            <source src="video/sample.webm" type="video/webm">
+            Ваш браузер не поддерживает встроенные видео.
+        </video>
+
+        <!-- Добавьте больше видео здесь -->
+        <div class="video-gallery">
+            <h3>Другие видео</h3>
+            <video width="320" height="240" controls>
+                <source src="video/another-video.mp4" type="video/mp4">
+                Ваш браузер не поддерживает встроенные видео.
+            </video>
+            <!-- Добавьте дополнительные видеоплееры по мере необходимости -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 VideoPirate. Все права защищены.</p>
+    </footer>
+</body>
+</html>
